@@ -1,2 +1,3 @@
 # LoopsHW.py
 learning_python
+how_do_I_tell_a_loop_to_exclude_strings_when_adding_data_from_a_list_to_a_list_made_of_integers?
