@@ -1,12 +1,20 @@
-# LoopsHW.py
-input_list = ["Hello",8.8,6,"Goodbye"]
+int_float_list = []
+str_list = []
 
-int_list = []
+def list_maker(new_element):
+    if new_element == isinstance(my_input, (int, float)):
+        int_float_list.append(new_element)
+    if new_element == isinstance(my_input, str):
+        str_list.append(new_element)
 
-for e in input_list:
-  print (e)
-  if e >= 0:
-      int_list.append(e)
-      print int_list
-  if e is (""):
-      int_list.remove(e)
+my_input = ["Hello"]
+list_maker(my_input)
+my_input = 8.8
+list_maker(my_input)
+my_input = 6
+list_maker(my_input)
+my_input = ["Goodbye"]
+list_maker(my_input)
+
+print (int_float_list)
+print (str_list)
